@@ -79,21 +79,14 @@
     align-items: center;
     justify-content: space-between;
     height: 80vh;
-    background: url('https://via.placeholder.com/1200x800') center/cover no-repeat;
-    position: relative;
+    background-color: #0077b6; /* Change to a solid background color */
     color: #ffffff;
     text-align: left;
     padding: 2rem;
   }
   
   .hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0,0,0,0.5);
+    content: none; /* Remove the overlay */
   }
   
   .hero-content {
@@ -133,7 +126,7 @@
   }
   
   .profile-image {
-    max-width: 30%;
+    max-width: 15%;
     height: auto;
     border-radius: 50%;
   }
