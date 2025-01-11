@@ -1,1 +1,186 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Jeremy Dickinson's Data Science Portfolio" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeremy Dickinson | Data Science Portfolio</title>
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Link to your JS file (defer to ensure HTML loads first) -->
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- ====== Navigation Bar ====== -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-brand">
+        <a href="#home">Jeremy Dickinson</a>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- Hamburger menu (for mobile) -->
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ====== Home Section (Hero) ====== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Hello, I'm <span>Jeremy Dickinson</span></h1>
+      <p>Data Scientist | NLP & LLM Specialist | MLOps Enthusiast</p>
+      <a href="#projects" class="btn">View My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== About Section ====== -->
+  <section class="section about" id="about">
+    <h2>About Me</h2>
+    <div class="content">
+      <img
+        src="images/profile.png"
+        alt="Jeremy Dickinson Profile Photo"
+        class="profile-pic"
+      />
+      <div class="about-text">
+        <p>
+          I am a <strong>Multilingual Data Scientist</strong> from the Greater Chicago Area, IL with dual
+          master’s degrees in Computational and Hispanic Linguistics (<strong>4.0 GPA</strong>).
+          Specializing in <strong>NLP, LLMs, and MLOps</strong>, I bring deep
+          expertise in transforming unstructured text into actionable business
+          insights. Throughout my career, I’ve built end-to-end machine learning
+          pipelines and delivered AI-driven solutions for product development,
+          internal enablement, and C-suite decision-making.
+        </p>
+        <p>
+          My journey from linguistics academia to industry taught me how to tackle
+          the unknown. I push through uncertainty by embracing constant learning and
+          iteration with a positive mindset. Whether it’s building RAG-based AI tools to improve engagement
+          or fine-tuning LLMs for an enterprise product, my
+          focus is on driving real-world impact. I love collaborating with cross-
+          functional teams, communicating complex concepts to non-technical
+          audiences, and bridging the gap between cutting-edge research and
+          practical solutions.
+        </p>
+        <p>
+          When I’m not coding, you can find me exploring the intersection of
+          linguistics and AI, doing CrossFit, learning new languages, and creating approachable
+          learning materials to data science over on <a href="https://diveintodata.substack.com">Substack</a>. 
+        </p>
+        <a href="#contact" class="btn">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ====== Skills Section ====== -->
+  <section class="section skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <h3>Programming & Libraries</h3>
+        <p>Python, SQL, NumPy, Pandas, statsmodels, scikit-learn, SpaCy, NLTK, transformers</p>
+      </div>
+      <div class="skill-card">
+        <h3>ML & AI</h3>
+        <p>MLOps, LLMs, Neural Networks, Retrieval-Augmented Generation, Regression</p>
+      </div>
+      <div class="skill-card">
+        <h3>Platforms & Tools</h3>
+        <p>Git, Docker, Power BI, Azure ML Studio, OpenAI API</p>
+      </div>
+      <div class="skill-card" style="text-align: left;">
+        <h3>Core Competencies</h3>
+        <ul>
+          <li>Communicating technical concepts</li>
+          <li>Cross-functional collaboration</li>
+          <li>Strategic thinking</li>
+          <li>Identifying business opportunities for AI</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Projects Section ====== -->
+  <section class="section projects" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <!-- Project Template 1 -->
+      <div class="project-card">
+        <img 
+          src="https://via.placeholder.com/400x250" 
+          alt="Project 1 Screenshot" 
+        />
+        <div class="project-info">
+          <h3>Project Title 1</h3>
+          <p>
+            Brief description of the project, its goals, and key results. Explain
+            the tools and technologies used.
+          </p>
+          <a href="#" target="_blank" class="btn">View on GitHub</a>
+        </div>
+      </div>
+
+      <!-- Project Template 2 -->
+      <div class="project-card">
+        <img 
+          src="https://via.placeholder.com/400x250" 
+          alt="Project 2 Screenshot" 
+        />
+        <div class="project-info">
+          <h3>Project Title 2</h3>
+          <p>
+            Brief description of the project, its goals, and key results. Explain
+            the tools and technologies used.
+          </p>
+          <a href="#" target="_blank" class="btn">View on GitHub</a>
+        </div>
+      </div>
+
+      <!-- Project Template 3 -->
+      <div class="project-card">
+        <img 
+          src="https://via.placeholder.com/400x250" 
+          alt="Project 3 Screenshot" 
+        />
+        <div class="project-info">
+          <h3>Project Title 3</h3>
+          <p>
+            Brief description of the project, its goals, and key results. Explain
+            the tools and technologies used.
+          </p>
+          <a href="#" target="_blank" class="btn">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Contact Section ====== -->
+  <section class="section contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>
+      Have a question or want to collaborate? Feel free to reach out!
+    </p>
+    <div class="contact-links">
+      <a href="mailto:dickinson.jer@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/jedicki" target="_blank">LinkedIn</a>
+      <a href="https://github.com/YourUsername" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <!-- ====== Footer ====== -->
+  <footer>
+    <p>&copy; <span id="year"></span> Jeremy Dickinson. All rights reserved.</p>
+    <p>Powered by Data and Linguistics.</p>
+  </footer>
+</body>
+</html>
